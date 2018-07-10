@@ -1,0 +1,34 @@
+{
+	"name": "palette-image-mapper",
+	"version": "1.0.0",
+	"description": "Generates a simple 2D array with palette indexes and an image.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"image",
+		"map",
+		"palette",
+		"array",
+		"2d"
+	],
+	"bin": {
+		"pim": "./cli.js"
+	},
+	"author": "haykam821",
+	"license": "MIT",
+	"dependencies": {
+		"array2d": "0.0.5",
+		"pngjs-image": "^0.11.7",
+		"yargs": "^12.0.1"
+	},
+	"devDependencies": {
+		"eslint": "^5.1.0",
+		"eslint-config-haykam": "^1.2.0",
+		"eslint-plugin-extra-rules": "0.0.0-development",
+		"eslint-plugin-html": "^4.0.5",
+		"eslint-plugin-json": "^1.2.0",
+		"eslint-plugin-unicorn": "^4.0.3"
+	}
+}
